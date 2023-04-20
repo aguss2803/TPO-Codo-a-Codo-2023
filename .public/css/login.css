@@ -1,0 +1,78 @@
+/* estilo de la pagina */
+*{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* estilo del Body */
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+    min-height:90vh;
+    background-image:url(../img/login/pexels-zachary-debottis-18888831.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+/* estilo formulario */
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px 10px;
+}
+
+/* titulo del formulario */
+form h1{
+    font-size: 40px;
+    text-align: center;
+    color: #ff0080;
+    margin-bottom: 20px;
+    font-weight: 100px;
+}
+
+
+/* estilo label usuario//contraseña */
+form label{
+    font-size: 20px;
+    align-items: center;
+    padding-bottom: 10px;
+    margin-bottom: 20%;
+    
+}
+
+
+/* estilo formulario enlace */
+form a{
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    margin-bottom: 5%;
+}
+
+/* estilo formulario boton */
+form button{
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 10%;
+    
+}
+
+form div p{
+    color: #ff0080;
+}
+
+a:link, a:visited, button a {
+    text-decoration: none;
+    color:#ff0080;
+    font-size: 20px;
+}
+
+.redes a{
+
+    padding: 10px;
+    border: 1px ;
+    
+}
