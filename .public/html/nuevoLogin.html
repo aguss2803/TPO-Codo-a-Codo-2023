@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/nuevoLogin.css">
+    <!-- bt -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
+
+    <title>MaVi</title>
+</head>
+
+<body>
+    <section>
+        <div class="container-fluid">
+        <form class="row g-3">
+
+            <div class="col-md-2">
+                <label for="validationDefault01" class="form-label">Nombre</label>
+                <input type="text" class="form-control" id="validationDefault01" placeholder="Nombre" required>
+            </div>
+
+            <div class="col-md-2">
+                <label for="validationDefault02" class="form-label">Apellido</label>
+                <input type="text" class="form-control" id="validationDefault02" placeholder="Apellido" required>
+            </div>
+
+            <div class="col-md-2">
+                <label for="validationDefault02" class="form-label"> Nacimiento</label>
+                <input type="date" class="form-control" id="validationDefault02" required>
+            </div>
+
+            <div class="col-md-2">
+                <label for="validationDefault05" class="form-label">Codigo de area:</label>
+                <input type="text" class="form-control" id="validationDefault05" placeholder="codigo de area"
+                    maxlength="4" required>
+            </div>
+
+            <div class="col-md-2">
+                <label for="validationDefault05" class="form-label">N° de telefono</label>
+                <input type="text" class="form-control" id="validationDefault05" placeholder="Nro telefono"
+                    maxlength="7" required>
+            </div>
+
+            <div class="col-md-6">
+                <label for="validationDefault03" class="form-label">Localidad</label>
+                <input type="text" class="form-control" id="validationDefault03" required>
+            </div>
+
+            <div class="col-md-6">
+                <label for="validationDefault04" class="form-label">Pais</label>
+                <select class="form-select" id="validationDefault04" required>
+                    <option selected disabled>Elegir.</option>
+                    <option>Argentina</option>
+                    <option>Brasil</option>
+                    <option>Chile</option>
+                    <option>Uruguay</option>
+                    <option>Otro</option>
+                </select>
+            </div>
+
+            <div class="col-md-3">
+                <label for="validationDefault05" class="form-label">E-mail:</label>
+                <input type="text" class="form-control" id="validationDefault05" placeholder="E-mail" required>
+            </div>
+
+            <div class="col-md-3">
+                <label for="validationDefault04" class="form-label">@</label>
+                <select class="form-select" id="validationDefault04" required>
+                    <option selected disabled>Elegir.</option>
+                    <option>@G-mail</option>
+                    <option>@Yahoo</option>
+                    <option>@Live</option>
+                    <option>@Outlook</option>
+                </select>
+            </div>
+
+            <div class="col-md-2">
+                <label for="validationCustomUsername" class="form-label">Usuario</label>
+                <div class="input-group has-validation">
+                    <input type="text" class="form-control" id="validationCustomUsername"
+                        aria-describedby="inputGroupPrepend" placeholder="Usuario" required>
+                    <div class="invalid-feedback">
+                        ingrese un Usuario
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-2">
+                <label for="validationDefault05" class="form-label">Constraseña:</label>
+                <input type="password" class="form-control" id="validationDefault05" placeholder="Contraseña" required>
+            </div>
+
+            <div class="col-12">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
+                    <label class="form-check-label" for="invalidCheck2">
+                        Acepto los terminos y condiciones
+                    </label>
+                </div>
+            </div>
+
+            <br>
+
+            <div class="col-12">
+                <a href="/html/index.html"> <button class="btn btn-primary" type="submit"> Crear cuenta</button></a>
+            </div>
+        </form>
+    </div>
+        <br>
+
+        <a href="/html/index.html">Volver a inicio</a>
+    </section>
+
+    <hr>
+
+    <!--Footer-->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+
+                <!-- Redes sociales -->
+                <div class="col-md-3">
+                    <h4>Redes Sociales</h4>
+                    <div class="redes">
+                    
+                            <a href="https://www.facebook.com/"><img src="/img/facebook-circle-logo-108.png"
+                                        alt="fb" width="40">
+                                </a>
+
+                        <a href="https://twitter.com/"><img src="/img/twitter-logo-108.png" alt="tw" width="40">
+                             </a>
+                            
+
+                        <a href="https://www.instagram.com/"><img src="/img/instagram-alt-logo-108.png" alt="ig"
+                                        width="40">
+                                    </a>
+                        
+                    </div>
+                </div>
+                <!-- Información de contacto -->
+                <div class="col-md">
+                    <div class="info">
+                        <h4>Information de contacto</h4>
+                        <p>Dirección: Calle X, Ciudad Y</p>
+                        <p>Teléfono: +XX XXX XXXXXX</p>
+                        <p>Email: info@tudominio.com</p>
+                    </div>
+                </div>
+
+                <div class="col-md- align-items-center">
+                    <div class="extra">
+                        <span class=" col-md">© 2023 Company, Inc</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
