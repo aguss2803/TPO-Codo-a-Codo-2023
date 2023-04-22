@@ -1,8 +1,9 @@
 body{
     background-image: url(../img/fondos/pago.jpg);
+    background-position: center;
     background-size: cover;
-    background-attachment: fixed;
-    padding: 20px;
+    padding: 10px;
+    min-height: 100vh;
 }
 
 button{

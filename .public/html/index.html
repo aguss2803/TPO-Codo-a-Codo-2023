@@ -1,15 +1,188 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/index.css">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../css/index.css">
+
+  <!-- BT -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+    crossorigin="anonymous"></script>
+  <title></title>
 </head>
+
 <body>
-    
-      <!--Footer-->
+
+  <!-- titulo -->
+  <header>
+    <h1 class="title1">NerdsLand</h1>
+  </header>
+
+  <!-- Menu gral -->
+  <section id="menuSection">
+    <div class="container-fluid">
+      <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+        <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+          <li><a href="#" class="nav-link px-2 text-white">Inicio</a></li>
+          <li><a href="#" class="nav-link px-2 text-white">Productos</a></li>
+          <li><a href="#" class="nav-link px-2 text-white">Promociones</a></li>
+          <li><a href="#" class="nav-link px-2 text-white">Vender</a></li>
+          <li><a href="#" class="nav-link px-2 text-white">Contacto</a></li>
+        </ul>
+        <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
+          <input type="search" class="form-control form-control-dark" placeholder="Buscar..." aria-label="Buscar">
+        </form>
+        <div class="text-end">
+          <button type="button" class="btn btn-outline-light me-1 btn-primary">Ingresar</button>
+          <button type="button" class="btn btn-warning">Registrarse</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Info adicional opcional  -->
+  <section id="firstSection">
+    <div class="accordion" id="accordionExample">
+      <div class="accordion-item">
+        <h3 class="accordion-header">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+            aria-expanded="true" aria-controls="collapseOne">
+            Mas sobre nosotros
+          </button>
+        </h3>
+        <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <b>
+              <h5>Bienvenidos a .....</h5>
+              <b>
+                <p class="lead">La mas alta variedad de componentes para tu computadora, variedad en
+                  tablet, celulares, notebook y computadoras gamers. Toda la asistencia que necesitas
+                  la encuentras en un solo lugar.</p>
+              </b>
+          </div>
+        </div>
+      </div>
+  </section>
+
+
+
+      <!--  -->
+
+      <!-- ↓ Espacio para crear un repertorio de imagenes en formato scroll ↑ -->
+
+      <!--  -->
+
+      <!-- formato de filtrado -->
+  
+      <div class="conteiner-fluid">
+        <div class="row">
+          <div class="col-md-4">
+            <select class="form-select" id="select" >
+              <option selected disabled>CATEGORIA</option>
+              <option> Procesadores</option>
+              <option>Mother</option>
+              <option>Placas de video</option>
+              <option>Memoria Ram</option>
+              <option>Almacenamiento</option>
+              <option>Gabinetes</option>
+              <option>Fuentes</option>
+              <option>Monitores</option>
+              <option>Perifericos</option>
+              <option>Sillas Gamers</option>
+              <option>Pc Gamers</option>
+              <option>Tables & Celulares</option>
+            </select>
+          </div>
+          <div class="col-md-4">
+            <select class="form-select" id="select">
+              <option selected disabled>FILTROS</option>
+              <option>Fecha de publicacion</option>
+              <option>....r</option>
+              <option>....</option>
+            </select>
+          </div>
+          <div class="col-md-4">
+            <select class="form-select" id="select" >
+              <option selected disabled>ORDENAR POR</option>
+              <option>Mayor</option>
+              <option>Menor Precio</option>
+            </select>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+  <!-- <div class="list-group">
+    <cgw-product-alone class="mat-card card-product ng-star-inserted">
+      <div class="centerMobile justify-content-around viewList">
+        <div class="center aSelf imagenPrincipal"><a href="">
+          <cgw-item-image size="medium" class="pointer aself" style="display: inline-block; position: relative;">
+              <a href=""><img src="" class=" ng-lazyloaded"></cgw-item-image></a></div>
+        <div class="contenidoPrincipal">
+          <div class="theme_nombreProducto seleccion aself vert-center "><a href=""><span>
+                Nombre de Producto</span></a></div>
+          <div class="contenedor-price">
+            <h1 class="price ng-star-inserted"><span class="theme_precio ng-star-inserted">
+                $&nbsp;Precio
+              </span></h1>
+          </div>
+          <div class="dotted ng-star-inserted"><button color="primary"
+              class="mat-focus-indicator button-ok-width mat-raised-button mat-button-base mat-primary"><span
+                class="mat-button-wrapper"> Sumar al carrito </span><span matripple=""
+                class="mat-ripple mat-button-ripple"></span><span class="mat-button-focus-overlay"></span></button>
+          </div>
+        </div>
+      </div>
+      <div class="centerMobile justify-content-around viewList">
+        <div class="center aSelf imagenPrincipal"><a href=""><cgw-item-image size="medium" class="pointer aself"
+              style="display: inline-block; position: relative;"><img src=""
+                class=" ng-lazyloaded"></cgw-item-image></a></div>
+        <div class="contenidoPrincipal">
+          <div class="theme_nombreProducto seleccion aself vert-center mat-h2"><a href=""><span>
+                Nombre de Producto</span></a></div>
+          <div class="contenedor-price">
+            <h1 class="price ng-star-inserted"><span class="theme_precio ng-star-inserted">
+                $&nbsp;Precio
+              </span></h1>
+          </div>
+          <div class="dotted ng-star-inserted"><button color="primary"
+              class="mat-focus-indicator button-ok-width mat-raised-button mat-button-base mat-primary"><span
+                class="mat-button-wrapper"> Sumar al carrito </span><span matripple=""
+                class="mat-ripple mat-button-ripple"></span><span class="mat-button-focus-overlay"></span></button>
+          </div>
+        </div>
+      </div>
+      <div class="centerMobile justify-content-around viewList">
+        <div class="center aSelf imagenPrincipal"><a href=""><cgw-item-image size="medium" class="pointer aself"
+              style="display: inline-block; position: relative;"><img src=""
+                class=" ng-lazyloaded"></cgw-item-image></a></div>
+        <div class="contenidoPrincipal">
+          <div class="theme_nombreProducto seleccion aself vert-center mat-h2"><a href=""><span>
+                Nombre de Producto</span></a></div>
+          <div class="contenedor-price">
+            <h1 class="price ng-star-inserted"><span class="theme_precio ng-star-inserted">
+                $&nbsp;Precio
+              </span></h1>
+          </div>
+          <div class="dotted ng-star-inserted"><button color="primary"
+              class="mat-focus-indicator button-ok-width mat-raised-button mat-button-base mat-primary"><span
+                class="mat-button-wrapper"> Sumar al carrito </span><span matripple=""
+                class="mat-ripple mat-button-ripple"></span><span class="mat-button-focus-overlay"></span></button>
+          </div>
+        </div>
+      </div>
+  </div>
+  </div>
+  </div> -->
+
+
+  <!--Footer-->
   <footer class="footer">
     <div class="container-fluid">
       <div class="row">
@@ -18,11 +191,14 @@
           <h4>Navegacion</h4>
           <div class="navegador">
             <ul>
-              <li><a href="/#border"><img src="/img/home-alt-regular-24.png" alt="home" width="30px"> Inicio</a></li>
-              <li><a href="/html/mas sobre nosotros.html"><img src="/img/contact-solid-24.png" alt="contact"
-                    width="30px">
-                  Mas sobre nosotros</a></li>
-              <li><a href="/productos"><img src="/img/cart-add-regular-24.png" alt="product" width="30px"> Productos</a>
+              <li>
+                <a href="/#border" id="inicio"><img  src="../img/footer/home-alt-regular-24.png" alt="home" width="40px"> Inicio</a>
+                </li>
+              <li>
+                <a href="/html/mas sobre nosotros.html" id="contacto"><img  src="../img/footer/contact-solid-24.png" alt="contact" width="40px"> Mas sobre nosotros</a>
+                </li>
+              <li>
+                <a href="/productos" id="carrito"><img  src="../img/footer/cart-add-regular-24.png" alt="product" width="40px"> Productos</a>
               </li>
             </ul>
           </div>
@@ -33,11 +209,14 @@
           <h4>Redes Sociales</h4>
           <div class="redes">
             <ul>
-              <li><a href="https://www.facebook.com/"><img src="/img/facebook-circle-logo-108.png" alt="fb" width="40">
+              <li><a href="https://www.facebook.com/"><img src="../img/footer/facebook-circle-logo-108.png" alt="fb"
+                    width="40">
                   Facebook</a></li>
-              <li><a href="https://twitter.com/"><img src="/img/twitter-logo-108.png" alt="tw" width="40"> twitter </a>
+              <li><a href="https://twitter.com/"><img src="../img/footer/twitter-logo-108.png" alt="tw" width="40">
+                  twitter </a>
               </li>
-              <li><a href="https://www.instagram.com/"><img src="/img/instagram-alt-logo-108.png" alt="ig" width="40">
+              <li><a href="https://www.instagram.com/"><img src="../img/footer/instagram-alt-logo-108.png" alt="ig"
+                    width="40">
                   Instagram</a></li>
             </ul>
           </div>
@@ -48,10 +227,13 @@
           <h4>Metodos de pago</h4>
           <div class="pago">
             <ul>
-              <li><a href="/html/pago.html"><img src="/img/credit-card-solid-108.png" alt="card" width="40"> Tarjeta de
+              <li><a href="/html/pago.html"><img src="../img/footer/cart-add-regular-24.png" alt="card" width="40">
+                  Tarjeta de
                   crédito</a></li>
-              <li><a href="/html/pago.html"><img src="/img/paypal-logo-108.png" alt="pp" width="40"> PayPal</a></li>
-              <li><a href="/html/pago.html"><img src="/img/bank-solid-108.png" alt="tb" width="40"> Transferencia</a>
+              <li><a href="/html/pago.html"><img src="../img/footer/paypal-logo-108.png" alt="pp" width="40"> PayPal</a>
+              </li>
+              <li><a href="/html/pago.html"><img src="../img/footer/bank-solid-108.png" alt="tb" width="40">
+                  Transferencia</a>
               </li>
             </ul>
           </div>
@@ -78,4 +260,5 @@
 
   </footer>
 </body>
+
 </html>
